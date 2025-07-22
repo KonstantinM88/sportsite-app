@@ -34,7 +34,6 @@ export default function Navbar() {
           </svg>
         </button>
 
-        {/* Навигация */}
         <div
           className={`${
             isOpen ? 'block' : 'hidden'
