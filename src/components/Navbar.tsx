@@ -13,12 +13,10 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-800 text-white sticky top-0 z-50 shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-        {/* Логотип */}
         <Link href="/" className="text-xl font-bold hover:opacity-90">
           ⚽ СпортКурсы
         </Link>
 
-        {/* Кнопка для мобильного меню */}
         <button
           className="md:hidden focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
